@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="2">
+    <Button android:layout_weight="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Lock" android:id="@+id/lock" android:textStyle="bold" android:textSize="80dp"></Button>
+    <Button android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="fill_parent" android:text="@string/Unlock" android:id="@+id/unlock" android:textStyle="bold" android:textSize="80dp"></Button>
+</LinearLayout>
